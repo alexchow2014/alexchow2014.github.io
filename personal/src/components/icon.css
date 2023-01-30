@@ -1,0 +1,38 @@
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a {
+    display: inline-block;
+    height: 3em;
+    width: 3em;
+    color: black;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.iconbox {
+    display: inline-block;
+    width: 3em;
+    padding: 0;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.icon {
+    /* height: 3em;
+    width: 3em; */
+    text-align: center !important;
+    color: black;
+}
+
+svg {
+    height: 1.5em;
+    width: 1.5em;
+    box-sizing: border-box;
+}
+
+.icon:hover {
+    color: blue;
+}
