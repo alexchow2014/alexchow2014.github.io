@@ -62,6 +62,12 @@ function WebPage() {
                 </div>
             </div>
 
+            <div id="footer">
+                <div className="container col-12">
+                    <div>© Copyright 2023 Chow Tsz Kui, Alex. Last updated: January 28, 2023.</div>
+                </div>
+            </div>
+
         </div> 
 
         

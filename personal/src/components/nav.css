@@ -1,0 +1,23 @@
+@media screen and (min-width: 992px) {
+    #nav_item_one, #nav_item_two {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
+@media screen and (max-width: 992px) {
+    #nav_item_one, #nav_item_two {
+        height: 35px;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        /* padding-top: 0px;
+        padding-bottom: 0px; */
+        text-align: left;
+    }
+    #nav_item_one {
+        margin-top: 10px;
+    }
+  }

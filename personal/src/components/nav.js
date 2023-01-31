@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './nav.css';
 
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
@@ -18,10 +19,10 @@ function NavScrollExample() {
         <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
 
           <Nav className="border-left pl-2 ms-auto">
-            <Nav.Link href="">
+            <Nav.Link className="nav_link_item" id="nav_item_one" href="">
               About
             </Nav.Link>
-            <Nav.Link eventKey={2} href="">
+            <Nav.Link className="nav_link_item" id="nav_item_two" href="">
               More
             </Nav.Link>
           </Nav>
