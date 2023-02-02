@@ -47,38 +47,29 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    #section_title_news {
-        margin-left: 38px;
-        font-size: 40px;
-    }
     
     .project_item {
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    #section_title_project {
-        margin-left: 38px;
-        font-size: 40px;
-    }
-    
 }
 @media screen and (max-width: 992px) {
     .news_item {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    #section_title_news {
-        margin-left: 10px;
-        font-size: 40px;
-    }
-    
+
     .project_item {
         margin-top: 15px;
         margin-bottom: 15px;
     }
-    #section_title_project {
-        margin-left: 10px;
-        font-size: 40px;
-    }
-    
+}
+
+#section_title_news {
+    margin-left: auto;
+    font-size: 40px;
+}
+#section_title_project {
+    margin-left: auto;
+    font-size: 40px;
 }

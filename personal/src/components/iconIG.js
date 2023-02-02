@@ -9,7 +9,7 @@ import { FaInstagram } from 'react-icons/fa';
 function IconIGbox() {
     return (
         <div className="container iconbox" id="iconmailbox">
-            <a href="https://www.instagram.com/new_alexchow2014/">
+            <a href="https://www.instagram.com/new_alexchow2014/" className='icon_a'>
                 <h1 className="icon"><FaInstagram /></h1>
             </a>
         </div>

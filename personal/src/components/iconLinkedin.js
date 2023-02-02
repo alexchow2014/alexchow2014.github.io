@@ -9,7 +9,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 function IconLinkedinbox() {
     return (
         <div className="container iconbox" id="iconmailbox">
-            <a href="https://www.linkedin.com/in/alex-chow-tk-a36309252/">
+            <a href="https://www.linkedin.com/in/alex-chow-tk-a36309252/" className='icon_a'>
                 <h1 className="icon" id="mailbox"><AiFillLinkedin /></h1>
             </a>
         </div>

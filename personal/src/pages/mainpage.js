@@ -14,6 +14,8 @@ import IconMailbox from '../components/iconMailbox';
 import IconGithub from '../components/iconGithub';
 import IconLinkedin from '../components/iconLinkedin';
 import IconIG from '../components/iconIG';
+// Components
+import Footer from '../components/footer';
 
 function WebPage() {
     return (
@@ -97,9 +99,7 @@ function WebPage() {
             </div>
 
             <div id="footer">
-                <div className="container col-12">
-                    <div>© Copyright 2023 Chow Tsz Kui, Alex. Last updated: January 28, 2023.</div>
-                </div>
+                <Footer />
             </div>
 
         </div> 

@@ -9,7 +9,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 function IconMailbox() {
     return (
         <div className="container iconbox" id="iconmailbox">
-            <a href="mailto:alexchow2014@gmail.com">
+            <a href="mailto:alexchow2014@gmail.com" className='icon_a'>
                 <h1 className="icon" id="mailbox"><HiOutlineMail /></h1>
             </a>
         </div>
