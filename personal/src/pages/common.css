@@ -1,4 +1,4 @@
-#pageitemLineOne {
+.pageitemLineOne {
     width: 100vw;
     height: 75px;
     position: fixed;
@@ -76,11 +76,3 @@
 
 
 
-#footer {
-    width: 100%;
-    margin-top: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: rgba(200, 200, 200, 0.65);
-    color: black;
-}

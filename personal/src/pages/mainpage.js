@@ -20,7 +20,7 @@ import Footer from '../components/footer';
 function WebPage() {
     return (
         <div>        
-            <div id="pageitemLineOne">
+            <div className="pageitemLineOne">
                 <NavScrollExample />
             </div>
             <div id="pageitemLineTwo">

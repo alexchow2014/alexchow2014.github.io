@@ -1,0 +1,45 @@
+/* block 2 */
+#pageitemLineTwo {
+    padding-bottom: 40px;
+}
+#pageitemLineTwo_careeers_title {
+    font-size: 50px;
+}
+#pageitemLineTwo_careeers_description {
+    font-size: 20px;
+}
+
+
+/* block 3 */
+#title_place {
+    font-size: 35px;
+}
+
+@media screen and (min-width: 992px) {
+    #current_place_img {
+        text-align: left;
+        /* margin-left: 10px; */
+        /* float: left; */
+        width: 250px;
+        /* height: 100%; */
+    }
+    #current_place_word {
+        /* margin-top: 10px;
+        margin-left: 10px; */
+        /* width: 100%;
+        height: 100%; */
+        margin: auto;
+    }
+}
+@media screen and (max-width: 992px) {
+    #current_place_img {
+        text-align: center;
+        margin: auto;
+    }
+    #current_place_word {
+        margin-top: 10px;
+        
+    }
+}
+
+
