@@ -30,7 +30,7 @@ function CareerPage() {
                 </div>
             </div>
 
-            <div className="pageitemLine_content" id="">
+            <div className="pageitemLine_content" id="career_three">
                 <div className="container col-12">
                     <div id="title_place">
                         Current Place
@@ -52,9 +52,15 @@ function CareerPage() {
                 
             </div>
 
-            <div className="pageitemLine_content" id="">
+            <div className="pageitemLine_content" id="career_four">
+                <div className='container col-12' id="title_experience">
+                    Past Experience
+                </div>
+
                 <div className='container col-12'>
-                    <TimelineBlock />
+                    <div id="timeline_block">
+                        <TimelineBlock />
+                    </div>
                 </div>
                 
             </div>
