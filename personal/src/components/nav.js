@@ -19,10 +19,10 @@ function NavScrollExample() {
         <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
 
           <Nav className="border-left pl-2 ms-auto">
-            <Nav.Link className="nav_link_item" id="nav_item_one" href="">
+            <Nav.Link className="nav_link_item" id="nav_item_one" href="/">
               About
             </Nav.Link>
-            <Nav.Link className="nav_link_item" id="nav_item_two" href="">
+            <Nav.Link className="nav_link_item" id="nav_item_two" href="/career/">
               Career
             </Nav.Link>
           </Nav>

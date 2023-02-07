@@ -6,16 +6,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import NavScrollExample from '../components/nav';
 
-import React, { useState, useEffect } from "react";
-import profile from '../resources/profile.png';
+import React from "react";
+// import profile from '../resources/profile.png';
 
-// Icon
-import IconMailbox from '../components/iconMailbox';
-import IconGithub from '../components/iconGithub';
-import IconLinkedin from '../components/iconLinkedin';
-import IconIG from '../components/iconIG';
+
 // Components
 import Footer from '../components/footer';
+import Identity from '../components/identity';
 
 function WebPage() {
     return (
@@ -24,43 +21,33 @@ function WebPage() {
                 <NavScrollExample />
             </div>
             <div id="pageitemLineTwo">
-                <div className="container col-12">
-                    <div id="boxOne" className="row">
-                        <div className="boxOneitem topmargin 
-                            col-12 col-md-6 order-md-first order-last" id="boxOneNII">
-                            <div className="col-12" id="Name">
-                                Chow Tsz Kui, Alex
-                            </div>
-                            <div className="col-12 Identity">
-                                Software Engineer, Amateur Weatherman
-                            </div>
-                            <div className="col-12 Identity">
-                                Cyclist, Live-long Learner
-                            </div>
-                        </div>
-                        <div className="boxOneitem  
-                            col-12 col-md-6 order-md-last order-first">
-                            {/* <img src={profile} alt="profile" /> */}
-                                <img src="https://picsum.photos/250" alt="profile" />
-                        </div>
-                    </div>
-
-                    <div id="boxTwo">
-                        <IconMailbox />
-                        <IconGithub />
-                        <IconLinkedin />
-                        <IconIG />
-                    </div>
-                </div>
+                <Identity />
             </div>
             <div id="pageitemLineThree" className='pageitemLine_content'>
                 <div className="container col-12">
                     <div className='textcard'>
-                        <div className='text_black'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
-                    
-                        <div className='text_black'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
-                    
-                        <div className='text_black'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                        <div className='text_black text_title' id="">
+                            Hello!
+                        </div>
+
+                        <div className='text_black' id="">
+                            I am working at ATAL Technologies Limited as an assistant software enginner, where 
+                            I participated varies projects, including lampposts with IoT and Automated Clearance System 
+                            for cars and passengers. I am also owning and operating a non-profit organization 
+                            called "Professional Meteorology" on Facebook and Instgram, where provides weather analytics 
+                            services and develops technologies regards to meteorology in order to provide enhance services 
+                            to the general public and possibly weather consulting services to specialized users or as business 
+                            solution. I graduated from the Chinese University of Hong Kong (CUHK) with a master degree in 
+                            Information Engineering which focus in machine learning and big data analytics.
+                        </div>
+                        
+                        <div className='text_black section_title' id="">
+                            Education
+                        </div>
+                        <div className='text_black' id="">
+                            
+                        </div>
+
                     </div>
                 </div>
             </div>
