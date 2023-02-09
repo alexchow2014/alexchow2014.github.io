@@ -31,7 +31,7 @@ function WebPage() {
                         </div>
 
                         <div className='text_black' id="">
-                            I am working at ATAL Technologies Limited as an assistant software enginner, where 
+                            I am working at ATAL Technologies Limited as an assistant software engineer, where 
                             I participated varies projects, including lampposts with IoT and Automated Clearance System 
                             for cars and passengers. I am also owning and operating a non-profit organization 
                             called "Professional Meteorology" on Facebook and Instgram, where provides weather analytics 
@@ -45,7 +45,17 @@ function WebPage() {
                             Education
                         </div>
                         <div className='text_black' id="">
-                            
+                            <strong>Graduate: </strong> MSc in Information Engineering @ CUHK (2022)
+                        </div>
+                        <div className='text_black' id="">
+                            <strong>Undergraduate: </strong> BEng in Information Engineering @ CUHK (2020)
+                        </div>
+
+                        <div className='text_black' id="">
+                            <strong>Course: </strong> Programming with severe languages and Data Structure, 
+                            Cross-platform Software Engineering, Network Software Design, Programming, Networking Protocols and System, 
+                            Web Development and Security, Database, OS, Machine Learning, Reinforcement Learning, Big data Systems and Information Processing, 
+                            Information Security and Privacy
                         </div>
 
                     </div>
@@ -59,28 +69,65 @@ function WebPage() {
                 </div>
                 <div className="container col-12 news_item">
                     <div className='textcard'>
-                        <div className='text_black'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                        <div className='text_black'>
+                            <div><strong>xxth Feb, 2023</strong></div>
+                            <div>
+                                Hello everyone, my personal website is launched today!
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="container col-12 news_item">
                     <div className='textcard'>
-                        <div className='text_black'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                        <div className='text_black'>
+                            <div><strong>4th Jul, 2022</strong></div>
+                            <div>
+                                I have left the Intelligent Design Technology Limited, 
+                                and joined ATAL Technologies Limited as an assistant software engineer.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div id="pageitemLineFive" className='pageitemLine_content'>
                 <div className="container col-12" id="section_title_project">
-                    Projects
+                    Personal projects
                 </div>
                 <div className="container col-12 project_item">
                     <div className='textcard'>
-                        <div className='text_black'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                        <div className='text_black row'>
+                            <div className='col-12'>
+                                {/* TC image */}
+                            </div>
+                            <div className='col-12'>
+                                <div>
+                                    <h5><strong>Estimate the intensity of tropical cyclone via Convolutional Neural Networks (for Professional Meteorology, in process)</strong></h5>
+                                </div>
+                                <div className='project_item_content'>
+                                    This project aims to estimate the intensity of tropical cyclones (TC) by using convolutional neural networks (CNN). The methodology is to use satellite imagery (IR or BD image) of the TC to estimate the strength of the tropical cyclone without direct observation. This will apply to the forecast of tropical cyclones to provide an accurate intensity estimation on the system in order to better forecast the risk by tropical cyclones, especially in wind and storm surge. Currently, the concept has been proven, and the construction of a suitable model is in progress. I will release the code when it is finished publicly.
+                                </div>
+                            </div>
+
+
+                        </div>
                     </div>
                 </div>
                 <div className="container col-12 project_item">
                     <div className='textcard'>
-                        <div className='text_black'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                        <div className='text_black row' >
+                                <div className='col-12'>
+
+                                </div> 
+                                <div className='col-12 '>
+                                    <div>
+                                        <h4><strong>Full-stack platform for Professional Meteorology (for Professional Meteorology, in process)</strong></h4>
+                                    </div>
+                                    <div className='project_item_content'>
+                                        This project aims to create a full-stack platform for Professional Meteorology, including but not limited to a public website, a management platform, a database, and a corresponding server for APIs on cloud services to provide services via website. The solution is under construction now.
+                                    </div>
+                                </div>
+                        </div>
                     </div>
                 </div>
             </div>
