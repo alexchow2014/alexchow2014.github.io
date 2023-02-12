@@ -84,3 +84,38 @@
     background-color: rgba(200, 200, 200, 0.65);
     color: black;
 } */
+
+.project_item_img {
+    width: 125px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+#project_item_img_web {
+    height: auto;
+    max-width: 125px;
+    margin-right: 0;
+}
+.img_box {
+    text-align: center;
+}
+#project_item_img_web {
+
+}
+
+@media screen and (min-width: 992px) {
+    .project_item_info {
+        padding-top: 0px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .project_item_info {
+        padding-top: 20px;
+        margin-left: 0px;
+    }
+}
+
+#typhoon_picture {
+
+}

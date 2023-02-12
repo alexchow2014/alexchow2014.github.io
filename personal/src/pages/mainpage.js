@@ -14,6 +14,15 @@ import React from "react";
 import Footer from '../components/footer';
 import Identity from '../components/identity';
 
+// Image
+import typhoon_picture from '../resources/ty_img.png'
+import full_stack from '../resources/full-stack.png'
+
+// Icon
+import { MdOutlineWeb } from 'react-icons/md';
+
+
+
 function WebPage() {
     return (
         <div>        
@@ -97,10 +106,14 @@ function WebPage() {
                 <div className="container col-12 project_item">
                     <div className='textcard'>
                         <div className='text_black row'>
-                            <div className='col-12'>
+                            <div className='col-12 col-lg-2 order-md-first order-last'>
                                 {/* TC image */}
+                                <div className='img_box container' id="">
+                                    <img class="project_item_img" id="typhoon_picture" src={typhoon_picture} alt="typhoon_picture" />
+                                </div>
+                            
                             </div>
-                            <div className='col-12'>
+                            <div className='project_item_info col-12 col-lg-10 order-md-first order-last'>
                                 <div>
                                     <h5><strong>Estimate the intensity of tropical cyclone via Convolutional Neural Networks (for Professional Meteorology, in process)</strong></h5>
                                 </div>
@@ -116,17 +129,20 @@ function WebPage() {
                 <div className="container col-12 project_item">
                     <div className='textcard'>
                         <div className='text_black row' >
-                                <div className='col-12'>
-
-                                </div> 
-                                <div className='col-12 '>
-                                    <div>
-                                        <h4><strong>Full-stack platform for Professional Meteorology (for Professional Meteorology, in process)</strong></h4>
-                                    </div>
-                                    <div className='project_item_content'>
-                                        This project aims to create a full-stack platform for Professional Meteorology, including but not limited to a public website, a management platform, a database, and a corresponding server for APIs on cloud services to provide services via website. The solution is under construction now.
-                                    </div>
+                            <div className='col-12 col-lg-2 order-md-first order-last' >
+                                <div className='img_box container' id="project_item_img_web_box">
+                                    <img class="project_item_img" id="project_item_img_web" src={full_stack} alt="full_stack" />
                                 </div>
+                                
+                            </div> 
+                            <div className='project_item_info col-12 col-lg-10 order-md-first order-last'>
+                                <div>
+                                    <h5><strong>Full-stack platform for Professional Meteorology (for Professional Meteorology, in process)</strong></h5>
+                                </div>
+                                <div className='project_item_content'>
+                                    This project aims to create a full-stack platform for Professional Meteorology, including but not limited to a public website, a management platform, a database, and a corresponding server for APIs on cloud services to provide services via website. The solution is under construction now.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
