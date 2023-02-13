@@ -1,9 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import './identity.css';
 
 import React from "react";
 
-import profile from '../resources/profile.png';
+import Profile from '../resources/profile.png';
 // Icon
 import IconMailbox from '../components/iconMailbox';
 import IconGithub from '../components/iconGithub';
@@ -28,8 +29,7 @@ function Identity() {
             </div>
             <div className="boxOneitem  
                 col-12 col-md-6 order-md-last order-first">
-                {/* <img src={profile} alt="profile" /> */}
-                    <img src="https://picsum.photos/250" alt="profile" />
+                <img id="profile_img" src={Profile} alt="profile" />
             </div>
         </div>
 

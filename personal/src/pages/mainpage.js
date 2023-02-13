@@ -19,7 +19,7 @@ import typhoon_picture from '../resources/ty_img.png'
 import full_stack from '../resources/full-stack.png'
 
 // Icon
-import { MdOutlineWeb } from 'react-icons/md';
+// import { MdOutlineWeb } from 'react-icons/md';
 
 
 
@@ -29,9 +29,11 @@ function WebPage() {
             <div className="pageitemLineOne">
                 <NavScrollExample />
             </div>
+
             <div id="pageitemLineTwo">
                 <Identity />
             </div>
+
             <div id="pageitemLineThree" className='pageitemLine_content'>
                 <div className="container col-12">
                     <div className='textcard'>
@@ -41,7 +43,7 @@ function WebPage() {
 
                         <div className='text_black' id="">
                             I am working at ATAL Technologies Limited as an assistant software engineer, where 
-                            I participated varies projects, including lampposts with IoT and Automated Clearance System 
+                            I participated varies projects, including lampposts with IoT and automated clearance system 
                             for cars and passengers. I am also owning and operating a non-profit organization 
                             called "Professional Meteorology" on Facebook and Instgram, where provides weather analytics 
                             services and develops technologies regards to meteorology in order to provide enhance services 
@@ -63,14 +65,13 @@ function WebPage() {
                         <div className='text_black' id="">
                             <strong>Course: </strong> Programming with severe languages and Data Structure, 
                             Cross-platform Software Engineering, Network Software Design, Programming, Networking Protocols and System, 
-                            Web Development and Security, Database, OS, Machine Learning, Reinforcement Learning, Big data Systems and Information Processing, 
+                            Web Development and Security, Database, OS, Machine Learning, Reinforcement Learning, Big data Systems and Information Processing (Spark and NoSQL system), 
                             Information Security and Privacy
                         </div>
 
                     </div>
                 </div>
             </div>
-
 
             <div id="pageitemLineFour" className='pageitemLine_content'>
                 <div className="container col-12" id="section_title_news">

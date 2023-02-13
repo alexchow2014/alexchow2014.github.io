@@ -1,0 +1,21 @@
+.timeline_title {
+    font-family: var(--bs-body-font-family);
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(255, 128, 0, 0.65);
+    margin-bottom: 10px;
+}
+.timeline_details {
+    font-family: var(--bs-body-font-family);
+    font-size: 18px;
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+.timeline_details_time {
+    font-family: var(--bs-body-font-family);
+    font-size: 15px;
+    margin-left: 0px;
+}
+.timeline_details_line {
+    padding-bottom: 10px;
+}

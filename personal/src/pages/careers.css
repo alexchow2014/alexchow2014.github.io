@@ -40,13 +40,41 @@
     }
 }
 
+#career_three_jobtitle {
+   font-size: 30px;
+   font-weight: bold;
+   color: rgba(255, 128, 0, 0.65);
+   margin-bottom: 10px;
+}
+.career_three_description {
+    font-size: 18px;
+}
+.career_three_description_pt {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+#career_three_description_date {
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+#clearance_picture {
+    width: 250px;
+    height: 250px;
+}
+#clearance_picture_credit {
+    margin-top: 10px;
+}
+
+
 /* Block 4 */
 #career_four {
     margin-top: 25px;
     padding-bottom: 10px;
 }
 #title_experience {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     font-size: 35px;
 }
 #timeline_block {
