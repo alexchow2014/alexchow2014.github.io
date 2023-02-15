@@ -22,7 +22,7 @@ function NavScrollExample() {
             <Nav.Link className="nav_link_item" id="nav_item_one" href="/">
               About
             </Nav.Link>
-            <Nav.Link className="nav_link_item" id="nav_item_two" href="/career/">
+            <Nav.Link className="nav_link_item" id="nav_item_two" href="/#/career/">
               Career
             </Nav.Link>
           </Nav>

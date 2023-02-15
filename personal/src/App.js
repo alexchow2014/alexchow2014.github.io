@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route, Switch } from "react-router-dom";
 
 import * as React from "react";
 
@@ -9,13 +9,21 @@ import CareerPage from './pages/careers';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<WebPage />} />
-        <Route path="/career/" element={<CareerPage />} />
-        <Route path="*" element={<CareerPage />} />
-      </Routes>
-    </BrowserRouter>
+    <React.StrictMode>
+        <HashRouter basename = "/">
+          <Routes>
+            <Route exact path="/" element={<WebPage />} />
+            <Route path="/career/" element={<CareerPage />} />
+          </Routes>
+        </HashRouter>
+    </React.StrictMode>
+    // <BrowserRouter basename="/">
+    //   <Routes>
+    //     <Route path="/" element={<WebPage />} />
+    //     <Route path="/career/" element={<CareerPage />} />
+    //     <Route path="*" element={<CareerPage />} />
+    //   </Routes>
+    // </BrowserRouter>
   );
 
 }
