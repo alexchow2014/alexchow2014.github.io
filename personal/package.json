@@ -1,7 +1,7 @@
 {
   "name": "personal",
   "homepage": "https://alexchow2014.github.io/",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
