@@ -69,6 +69,13 @@ function WebPage() {
                             Information Security and Privacy
                         </div>
 
+                        <div className='text_black section_title' id="">
+                            Certification
+                        </div>
+                        <div className='text_black' id="">
+                            AWS Certified Solutions Architect – Associate (2023, expired at 05/2026)
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -80,7 +87,17 @@ function WebPage() {
                 <div className="container col-12 news_item">
                     <div className='textcard'>
                         <div className='text_black'>
-                            <div><strong>xxth Feb, 2023</strong></div>
+                            <div><strong>30th May, 2023</strong></div>
+                            <div>
+                                I got the AWS Certified Solutions Architect – Associate Certification today.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="container col-12 news_item">
+                    <div className='textcard'>
+                        <div className='text_black'>
+                            <div><strong>15th Feb, 2023</strong></div>
                             <div>
                                 Hello everyone, my personal website is launched today!
                             </div>
